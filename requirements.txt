@@ -1,0 +1,18 @@
+# Heroes III + HotA AI Assistant - Python Dependencies
+
+# Core dependencies
+watchdog==4.0.0      # File system monitoring
+h3sed==0.2.0         # Heroes 3 save file parsing
+colorama==0.4.6      # Cross-platform colored terminal output
+requests==2.31.0     # HTTP client for MCP communication
+
+# Development dependencies
+pytest==8.1.1        # Testing framework
+pytest-cov==5.0.0    # Code coverage
+black==24.3.0        # Code formatting
+flake8==7.0.0        # Linting
+mypy==1.9.0          # Type checking
+
+# Optional dependencies for future enhancements
+aiohttp==3.9.3       # Async HTTP server (if we switch from sync)
+pydantic==2.6.4      # Data validation and settings management
