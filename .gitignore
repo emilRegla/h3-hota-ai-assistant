@@ -1,0 +1,73 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+*.cover
+.hypothesis/
+
+# Virtual environments
+bin/
+include/
+lib/
+lib64/
+share/
+pyvenv.cfg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Project specific
+.h3ai_cache.json
+~/.h3ai/
+vcmi-data/
+*.gm1
+*.gm2
+*.gm3
+*.gm4
+*.gm5
+*.gm6
+*.GM1
+*.GM2
+*.GM3
+*.GM4
+*.GM5
+*.GM6
+
+# Logs
+logs/
+*.log
+
+# Agent workspaces
+workspaces/
+coordination/status/
+coordination/agents/
+coordination/locks/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+.Trash-*
